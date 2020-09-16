@@ -1,3 +1,4 @@
 [submodule "modules/formatter"]
 	path = modules/formatter
 	url = https://github.com/mlc2307/python-formatter.git
+	branch = master
