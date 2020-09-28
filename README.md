@@ -15,12 +15,8 @@
 </p>
 
 <p align="center">
-    <a href="requirements.txt">
-        <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/opencv-python">
-    </a>
-    <a href="LICENSE">
-        <img alt="GitHub license" src="https://img.shields.io/github/license/mlc2307/video-frame-extractor">
-    </a>
+    <a href="requirements.txt"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/opencv-python"></a>
+    <a href="LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/mlc2307/video-frame-extractor"></a>
 </p>
 
 <br>
