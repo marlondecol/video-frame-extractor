@@ -120,20 +120,20 @@ parser = ArgumentParser(
     description='Extracts frames from an input video and exports them to images'
 )
 
-parser.add_argument('-i', '--input', help='Path to the input video file')
+parser.add_argument('-i', '--input', help='path to the input video file')
 
 parser.add_argument('-r',
                     '--extraction-rate',
                     type=int,
-                    help='Extraction frame rate')
+                    help='extraction frame rate')
 
-parser.add_argument('-o', '--offset', type=int, help='Frame offset')
+parser.add_argument('-o', '--offset', type=int, help='frame offset')
 
 parser.add_argument('-C',
                     '--output',
                     nargs='?',
                     const='',
-                    help='Output path for image files')
+                    help='output path for image files')
 
 args = vars(parser.parse_args())
 
