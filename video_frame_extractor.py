@@ -411,9 +411,10 @@ try:
 
         # Save the current frame as a JPEG image.
         cv2.imwrite(
-            '{}/frame_{}_{}_{:02d}_{:02d}_{:02d}_{:03d}.jpg'.format(
-                output_dir, extracted_frames, frame_index, hours, minutes,
-                seconds, milliseconds), frame)
+            '{}/{}_{}_{}_{:02d}_{:02d}_{:02d}_{:03d}.jpg'.format(
+                output_dir,
+                path.splitext(path.split(video_file)[1])[0], extracted_frames,
+                frame_index, hours, minutes, seconds, milliseconds), frame)
 
         extracted_frames += 1
 
